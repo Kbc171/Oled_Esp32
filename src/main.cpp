@@ -22,11 +22,11 @@ void setup() {
   display.clearDisplay();
 
   // Set text size and color
-  display.setTextSize(2);      
+  display.setTextSize(1);      
   display.setTextColor(SSD1306_WHITE);  
 
   // Set cursor to top-left
-  display.setCursor(10, 25);   
+  display.setCursor(0, 0);   
 
   // Print text
   display.println("Hello World!");
